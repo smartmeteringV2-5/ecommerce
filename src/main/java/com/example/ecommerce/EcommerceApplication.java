@@ -1,4 +1,4 @@
-package com.example.ecoomerce;
+package com.example.ecommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class EcoomerceApplication {
+public class EcommerceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EcoomerceApplication.class, args);
+        SpringApplication.run(EcommerceApplication.class, args);
     }
 
 }
