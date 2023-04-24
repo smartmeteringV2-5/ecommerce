@@ -209,6 +209,27 @@ Temporary Items
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,intellij,java
 
+### Gradle ###
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+### Gradle Patch ###
+# Java heap dump
+*.hprof
+
 
 #ignore
 .gradle/
